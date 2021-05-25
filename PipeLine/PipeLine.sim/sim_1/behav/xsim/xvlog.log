@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/ip/AXI_RAM_I/sim/AXI_RAM_I.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_RAM_I
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/ip/Data_Ram/sim/Data_Ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2458] undeclared symbol id_mem_r_en, assumed default net type wire [D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/Datapath.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/FlopEnRC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FlopEnRC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/NEXT_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NEXT_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/PipeLine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipeLine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/Regfiles.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfiles
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/SOC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SOC
+INFO: [VRFC 10-2458] undeclared symbol rsta_busy, assumed default net type wire [D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/SOC.v:145]
+INFO: [VRFC 10-2458] undeclared symbol rstb_busy, assumed default net type wire [D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/SOC.v:146]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sources_1/new/icache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Dragoncore/PipeLine/PipeLine.srcs/sim_1/new/Soc_testsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Soc_testsim

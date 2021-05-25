@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 23 19:58:01 2021
+# Process ID: 265844
+# Current directory: D:/Dragoncore/PipeLine/PipeLine.runs/Data_Ram_synth_1
+# Command line: vivado.exe -log Data_Ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Data_Ram.tcl
+# Log file: D:/Dragoncore/PipeLine/PipeLine.runs/Data_Ram_synth_1/Data_Ram.vds
+# Journal file: D:/Dragoncore/PipeLine/PipeLine.runs/Data_Ram_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Data_Ram.tcl -notrace

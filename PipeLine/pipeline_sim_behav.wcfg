@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Soc_testsim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Soc_testsim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4981200fs"></ZoomStartTime>
+      <ZoomEndTime time="7353201fs"></ZoomEndTime>
+      <Cursor1Time time="6350000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="238"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="250100" label="" />
+   </wave_markers>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/cpu_stall_imiss" type="logic">
+      <obj_property name="ElementShortName">cpu_stall_imiss</obj_property>
+      <obj_property name="ObjectShortName">cpu_stall_imiss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/instr_ram_data" type="array">
+      <obj_property name="ElementShortName">instr_ram_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_ram_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/if_instr" type="array">
+      <obj_property name="ElementShortName">if_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1058" type="group">
+      <obj_property name="label">i_cache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_ena" type="logic">
+         <obj_property name="ElementShortName">cpu_instr_ena</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_addr" type="array">
+         <obj_property name="ElementShortName">cpu_instr_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_data" type="array">
+         <obj_property name="ElementShortName">cpu_instr_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/stall_all" type="logic">
+         <obj_property name="ElementShortName">stall_all</obj_property>
+         <obj_property name="ObjectShortName">stall_all</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awid" type="array">
+         <obj_property name="ElementShortName">awid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">awid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awaddr" type="array">
+         <obj_property name="ElementShortName">awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awlen" type="array">
+         <obj_property name="ElementShortName">awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awsize" type="array">
+         <obj_property name="ElementShortName">awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awburst" type="array">
+         <obj_property name="ElementShortName">awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awvalid" type="logic">
+         <obj_property name="ElementShortName">awvalid</obj_property>
+         <obj_property name="ObjectShortName">awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/awready" type="logic">
+         <obj_property name="ElementShortName">awready</obj_property>
+         <obj_property name="ObjectShortName">awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/wstrb" type="array">
+         <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/wlast" type="logic">
+         <obj_property name="ElementShortName">wlast</obj_property>
+         <obj_property name="ObjectShortName">wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/wvalid" type="logic">
+         <obj_property name="ElementShortName">wvalid</obj_property>
+         <obj_property name="ObjectShortName">wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/wready" type="logic">
+         <obj_property name="ElementShortName">wready</obj_property>
+         <obj_property name="ObjectShortName">wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arid" type="array">
+         <obj_property name="ElementShortName">arid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">arid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/araddr" type="array">
+         <obj_property name="ElementShortName">araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arlen" type="array">
+         <obj_property name="ElementShortName">arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arsize" type="array">
+         <obj_property name="ElementShortName">arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arburst" type="array">
+         <obj_property name="ElementShortName">arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arvalid" type="logic">
+         <obj_property name="ElementShortName">arvalid</obj_property>
+         <obj_property name="ObjectShortName">arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/arready" type="logic">
+         <obj_property name="ElementShortName">arready</obj_property>
+         <obj_property name="ObjectShortName">arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rid" type="array">
+         <obj_property name="ElementShortName">rid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rresp" type="array">
+         <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rlast" type="logic">
+         <obj_property name="ElementShortName">rlast</obj_property>
+         <obj_property name="ObjectShortName">rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rvalid" type="logic">
+         <obj_property name="ElementShortName">rvalid</obj_property>
+         <obj_property name="ObjectShortName">rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/rready" type="logic">
+         <obj_property name="ElementShortName">rready</obj_property>
+         <obj_property name="ObjectShortName">rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/bid" type="array">
+         <obj_property name="ElementShortName">bid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">bid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/bresp" type="array">
+         <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/bvalid" type="logic">
+         <obj_property name="ElementShortName">bvalid</obj_property>
+         <obj_property name="ObjectShortName">bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/bready" type="logic">
+         <obj_property name="ElementShortName">bready</obj_property>
+         <obj_property name="ObjectShortName">bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/i_valid_mem" type="array">
+         <obj_property name="ElementShortName">i_valid_mem[63:0]</obj_property>
+         <obj_property name="ObjectShortName">i_valid_mem[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/i_data_mem" type="array">
+         <obj_property name="ElementShortName">i_data_mem[63:0][255:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data_mem[63:0][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/i_tag_mem" type="array">
+         <obj_property name="ElementShortName">i_tag_mem[63:0][20:0]</obj_property>
+         <obj_property name="ObjectShortName">i_tag_mem[63:0][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/i" type="array">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/tag_cpu" type="array">
+         <obj_property name="ElementShortName">tag_cpu[20:0]</obj_property>
+         <obj_property name="ObjectShortName">tag_cpu[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/index_cpu" type="array">
+         <obj_property name="ElementShortName">index_cpu[5:0]</obj_property>
+         <obj_property name="ObjectShortName">index_cpu[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/offset_cpu" type="array">
+         <obj_property name="ElementShortName">offset_cpu[2:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_cpu[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/tag_mem" type="array">
+         <obj_property name="ElementShortName">tag_mem[20:0]</obj_property>
+         <obj_property name="ObjectShortName">tag_mem[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/instr_ram_addr" type="array">
+         <obj_property name="ElementShortName">instr_ram_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_ram_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/W_pc" type="array">
+         <obj_property name="ElementShortName">W_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">W_pc[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/data_mem" type="array">
+         <obj_property name="ElementShortName">data_mem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_mem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_data" type="array">
+         <obj_property name="ElementShortName">cpu_instr_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/cpu_stall_imiss" type="logic">
+         <obj_property name="ElementShortName">cpu_stall_imiss</obj_property>
+         <obj_property name="ObjectShortName">cpu_stall_imiss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/instr_ram_data" type="array">
+         <obj_property name="ElementShortName">instr_ram_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_ram_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/if_instr" type="array">
+         <obj_property name="ElementShortName">if_instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_instr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/valid_mem" type="logic">
+         <obj_property name="ElementShortName">valid_mem</obj_property>
+         <obj_property name="ObjectShortName">valid_mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/miss" type="logic">
+         <obj_property name="ElementShortName">miss</obj_property>
+         <obj_property name="ObjectShortName">miss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cur_state" type="array">
+         <obj_property name="ElementShortName">cur_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cur_count" type="array">
+         <obj_property name="ElementShortName">cur_count[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_count[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/next_count" type="array">
+         <obj_property name="ElementShortName">next_count[7:0]</obj_property>
+         <obj_property name="ObjectShortName">next_count[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_data_t" type="array">
+         <obj_property name="ElementShortName">cpu_instr_data_t[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_data_t[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_data_t_next" type="array">
+         <obj_property name="ElementShortName">cpu_instr_data_t_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_data_t_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cpu_instr_next_valid" type="logic">
+         <obj_property name="ElementShortName">cpu_instr_next_valid</obj_property>
+         <obj_property name="ObjectShortName">cpu_instr_next_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/axi_ena" type="logic">
+         <obj_property name="ElementShortName">axi_ena</obj_property>
+         <obj_property name="ObjectShortName">axi_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/cache_line_addr" type="array">
+         <obj_property name="ElementShortName">cache_line_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_line_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/ADDR_WIDTH" type="array">
+         <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/CACHE_LINE_SIZE" type="array">
+         <obj_property name="ElementShortName">CACHE_LINE_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHE_LINE_SIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/CACHE_WAY_SIZE" type="array">
+         <obj_property name="ElementShortName">CACHE_WAY_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHE_WAY_SIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/CACHE_LINE_NUM" type="array">
+         <obj_property name="ElementShortName">CACHE_LINE_NUM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CACHE_LINE_NUM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/Byte_c" type="array">
+         <obj_property name="ElementShortName">Byte_c[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Byte_c[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/INDEX_WIDTH" type="array">
+         <obj_property name="ElementShortName">INDEX_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INDEX_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/OFFSET_WIDTH" type="array">
+         <obj_property name="ElementShortName">OFFSET_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/TAG_WIDTH" type="array">
+         <obj_property name="ElementShortName">TAG_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TAG_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/READ_IDLE" type="array">
+         <obj_property name="ElementShortName">READ_IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/READ_ADDR" type="array">
+         <obj_property name="ElementShortName">READ_ADDR[1:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_ADDR[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/instr_cache/READ_DATA" type="array">
+         <obj_property name="ElementShortName">READ_DATA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_DATA[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group141" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/stall" type="logic">
+         <obj_property name="ElementShortName">stall</obj_property>
+         <obj_property name="ObjectShortName">stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/cpu_stall_imiss" type="logic">
+         <obj_property name="ElementShortName">cpu_stall_imiss</obj_property>
+         <obj_property name="ObjectShortName">cpu_stall_imiss</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/branch_sel" type="array">
+         <obj_property name="ElementShortName">branch_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/j_sel" type="array">
+         <obj_property name="ElementShortName">j_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">j_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/i_imme" type="array">
+         <obj_property name="ElementShortName">i_imme[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_imme[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/rs_data" type="array">
+         <obj_property name="ElementShortName">rs_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/rt_data" type="array">
+         <obj_property name="ElementShortName">rt_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/j_imme" type="array">
+         <obj_property name="ElementShortName">j_imme[25:0]</obj_property>
+         <obj_property name="ObjectShortName">j_imme[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/id_rs_data" type="array">
+         <obj_property name="ElementShortName">id_rs_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/id_pc" type="array">
+         <obj_property name="ElementShortName">id_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/instr_ram_data" type="array">
+         <obj_property name="ElementShortName">instr_ram_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_ram_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/if_instr" type="array">
+         <obj_property name="ElementShortName">if_instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_instr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/pc_if" type="array">
+         <obj_property name="ElementShortName">pc_if[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_if[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/instr_ram_addr" type="array">
+         <obj_property name="ElementShortName">instr_ram_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_ram_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/pc_sel" type="array">
+         <obj_property name="ElementShortName">pc_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/W_pc" type="array">
+         <obj_property name="ElementShortName">W_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">W_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/W_next_pc" type="array">
+         <obj_property name="ElementShortName">W_next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">W_next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/Saved_PC" type="array">
+         <obj_property name="ElementShortName">Saved_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Saved_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/Saved_instr" type="array">
+         <obj_property name="ElementShortName">Saved_instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Saved_instr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/if_/Saved_ena" type="logic">
+         <obj_property name="ElementShortName">Saved_ena</obj_property>
+         <obj_property name="ObjectShortName">Saved_ena</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group150" type="group">
+      <obj_property name="label">IF_ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/clear" type="logic">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/instr_if_i" type="array">
+         <obj_property name="ElementShortName">instr_if_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_if_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/pc_if_i" type="array">
+         <obj_property name="ElementShortName">pc_if_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_if_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/instr_if_o" type="array">
+         <obj_property name="ElementShortName">instr_if_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_if_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/IF_ID_REGS/pc_if_o" type="array">
+         <obj_property name="ElementShortName">pc_if_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_if_o[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group190" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/instr_if" type="array">
+         <obj_property name="ElementShortName">instr_if[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_if[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/wb_reg_en" type="logic">
+         <obj_property name="ElementShortName">wb_reg_en</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/wb_reg_addr" type="array">
+         <obj_property name="ElementShortName">wb_reg_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/wb_reg_data" type="array">
+         <obj_property name="ElementShortName">wb_reg_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/op_out" type="array">
+         <obj_property name="ElementShortName">op_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">op_out[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/funct_out" type="array">
+         <obj_property name="ElementShortName">funct_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">funct_out[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/rt_rd_sel" type="logic">
+         <obj_property name="ElementShortName">rt_rd_sel</obj_property>
+         <obj_property name="ObjectShortName">rt_rd_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/reg_en" type="logic">
+         <obj_property name="ElementShortName">reg_en</obj_property>
+         <obj_property name="ObjectShortName">reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/rt_sel" type="logic">
+         <obj_property name="ElementShortName">rt_sel</obj_property>
+         <obj_property name="ObjectShortName">rt_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/alu_sel" type="array">
+         <obj_property name="ElementShortName">alu_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/mem_en" type="logic">
+         <obj_property name="ElementShortName">mem_en</obj_property>
+         <obj_property name="ObjectShortName">mem_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/wb_sel" type="logic">
+         <obj_property name="ElementShortName">wb_sel</obj_property>
+         <obj_property name="ObjectShortName">wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_imme_i" type="array">
+         <obj_property name="ElementShortName">id_imme_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">id_imme_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_imme_j" type="array">
+         <obj_property name="ElementShortName">id_imme_j[25:0]</obj_property>
+         <obj_property name="ObjectShortName">id_imme_j[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rs" type="array">
+         <obj_property name="ElementShortName">id_rs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rt" type="array">
+         <obj_property name="ElementShortName">id_rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rd" type="array">
+         <obj_property name="ElementShortName">id_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rs_data_out" type="array">
+         <obj_property name="ElementShortName">id_rs_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rt_data_out" type="array">
+         <obj_property name="ElementShortName">id_rt_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_branch_op" type="logic">
+         <obj_property name="ElementShortName">id_branch_op</obj_property>
+         <obj_property name="ObjectShortName">id_branch_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_j_op" type="logic">
+         <obj_property name="ElementShortName">id_j_op</obj_property>
+         <obj_property name="ObjectShortName">id_j_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_mem_r_en" type="logic">
+         <obj_property name="ElementShortName">id_mem_r_en</obj_property>
+         <obj_property name="ObjectShortName">id_mem_r_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_rt_sel" type="logic">
+         <obj_property name="ElementShortName">id_rt_sel</obj_property>
+         <obj_property name="ObjectShortName">id_rt_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_alu_sel" type="array">
+         <obj_property name="ElementShortName">id_alu_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">id_alu_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_mem_en" type="logic">
+         <obj_property name="ElementShortName">id_mem_en</obj_property>
+         <obj_property name="ObjectShortName">id_mem_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_w_reg_en" type="logic">
+         <obj_property name="ElementShortName">id_w_reg_en</obj_property>
+         <obj_property name="ObjectShortName">id_w_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/id_wb_sel" type="logic">
+         <obj_property name="ElementShortName">id_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">id_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/inst_op" type="array">
+         <obj_property name="ElementShortName">inst_op[5:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_op[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/inst_rs" type="array">
+         <obj_property name="ElementShortName">inst_rs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_rs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/inst_rt" type="array">
+         <obj_property name="ElementShortName">inst_rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/inst_rd" type="array">
+         <obj_property name="ElementShortName">inst_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/inst_shamt" type="array">
+         <obj_property name="ElementShortName">inst_shamt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_shamt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/imme_i" type="array">
+         <obj_property name="ElementShortName">imme_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">imme_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/imme_j" type="array">
+         <obj_property name="ElementShortName">imme_j[25:0]</obj_property>
+         <obj_property name="ObjectShortName">imme_j[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/rs_data_reg" type="array">
+         <obj_property name="ElementShortName">rs_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/rt_data_reg" type="array">
+         <obj_property name="ElementShortName">rt_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/w_addr_sel" type="array">
+         <obj_property name="ElementShortName">w_addr_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">w_addr_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/regfile" type="array">
+         <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group800" type="group">
+      <obj_property name="label">Regfiles</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/rs_addr" type="array">
+         <obj_property name="ElementShortName">rs_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/rt_addr" type="array">
+         <obj_property name="ElementShortName">rt_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/w_en" type="logic">
+         <obj_property name="ElementShortName">w_en</obj_property>
+         <obj_property name="ObjectShortName">w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/w_addr" type="array">
+         <obj_property name="ElementShortName">w_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">w_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/w_data" type="array">
+         <obj_property name="ElementShortName">w_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/rs_data" type="array">
+         <obj_property name="ElementShortName">rs_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/rt_data" type="array">
+         <obj_property name="ElementShortName">rt_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/id/regfile/regfile" type="array">
+         <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group219" type="group">
+      <obj_property name="label">ID_EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/clear" type="logic">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_immei_i" type="array">
+         <obj_property name="ElementShortName">id_immei_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">id_immei_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rs_addr_i" type="array">
+         <obj_property name="ElementShortName">id_rs_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_addr_i" type="array">
+         <obj_property name="ElementShortName">id_rt_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rd_addr_i" type="array">
+         <obj_property name="ElementShortName">id_rd_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rd_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rs_data_i" type="array">
+         <obj_property name="ElementShortName">id_rs_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_data_i" type="array">
+         <obj_property name="ElementShortName">id_rt_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_imme_sel_i" type="logic">
+         <obj_property name="ElementShortName">id_rt_imme_sel_i</obj_property>
+         <obj_property name="ObjectShortName">id_rt_imme_sel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_alu_sel_i" type="array">
+         <obj_property name="ElementShortName">id_alu_sel_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">id_alu_sel_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_mem_en_i" type="logic">
+         <obj_property name="ElementShortName">id_mem_en_i</obj_property>
+         <obj_property name="ObjectShortName">id_mem_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_wb_reg_en_i" type="logic">
+         <obj_property name="ElementShortName">id_wb_reg_en_i</obj_property>
+         <obj_property name="ObjectShortName">id_wb_reg_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_wb_sel_i" type="logic">
+         <obj_property name="ElementShortName">id_wb_sel_i</obj_property>
+         <obj_property name="ObjectShortName">id_wb_sel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_mem_r_i" type="logic">
+         <obj_property name="ElementShortName">id_mem_r_i</obj_property>
+         <obj_property name="ObjectShortName">id_mem_r_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_immei_o" type="array">
+         <obj_property name="ElementShortName">id_immei_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">id_immei_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rs_addr_o" type="array">
+         <obj_property name="ElementShortName">id_rs_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_addr_o" type="array">
+         <obj_property name="ElementShortName">id_rt_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rd_addr_o" type="array">
+         <obj_property name="ElementShortName">id_rd_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rd_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rs_data_o" type="array">
+         <obj_property name="ElementShortName">id_rs_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_data_o" type="array">
+         <obj_property name="ElementShortName">id_rt_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_rt_imme_sel_o" type="logic">
+         <obj_property name="ElementShortName">id_rt_imme_sel_o</obj_property>
+         <obj_property name="ObjectShortName">id_rt_imme_sel_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_alu_sel_o" type="array">
+         <obj_property name="ElementShortName">id_alu_sel_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">id_alu_sel_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_mem_en_o" type="logic">
+         <obj_property name="ElementShortName">id_mem_en_o</obj_property>
+         <obj_property name="ObjectShortName">id_mem_en_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_wb_reg_en_o" type="logic">
+         <obj_property name="ElementShortName">id_wb_reg_en_o</obj_property>
+         <obj_property name="ObjectShortName">id_wb_reg_en_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_wb_sel_o" type="logic">
+         <obj_property name="ElementShortName">id_wb_sel_o</obj_property>
+         <obj_property name="ObjectShortName">id_wb_sel_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ID_EX_REGS/id_mem_r_o" type="logic">
+         <obj_property name="ElementShortName">id_mem_r_o</obj_property>
+         <obj_property name="ObjectShortName">id_mem_r_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group244" type="group">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_rs_data" type="array">
+         <obj_property name="ElementShortName">id_rs_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rs_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_rt_data" type="array">
+         <obj_property name="ElementShortName">id_rt_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rt_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_rt_imme_sel" type="logic">
+         <obj_property name="ElementShortName">id_rt_imme_sel</obj_property>
+         <obj_property name="ObjectShortName">id_rt_imme_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_alu_sel" type="array">
+         <obj_property name="ElementShortName">id_alu_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">id_alu_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_imme_i" type="array">
+         <obj_property name="ElementShortName">id_imme_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">id_imme_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/W_forwardA" type="array">
+         <obj_property name="ElementShortName">W_forwardA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">W_forwardA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/W_forwardB" type="array">
+         <obj_property name="ElementShortName">W_forwardB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">W_forwardB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_mem_alu_res" type="array">
+         <obj_property name="ElementShortName">ex_mem_alu_res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_alu_res[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/wb_wb_data" type="array">
+         <obj_property name="ElementShortName">wb_wb_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_wb_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_rd" type="array">
+         <obj_property name="ElementShortName">id_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_w_mem_ena" type="logic">
+         <obj_property name="ElementShortName">id_w_mem_ena</obj_property>
+         <obj_property name="ObjectShortName">id_w_mem_ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_w_reg_en" type="logic">
+         <obj_property name="ElementShortName">id_w_reg_en</obj_property>
+         <obj_property name="ObjectShortName">id_w_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/id_wb_sel" type="logic">
+         <obj_property name="ElementShortName">id_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">id_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_alu_res" type="array">
+         <obj_property name="ElementShortName">ex_alu_res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_alu_res[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_rt_data" type="array">
+         <obj_property name="ElementShortName">ex_rt_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rt_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_rd" type="array">
+         <obj_property name="ElementShortName">ex_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_mem_en" type="logic">
+         <obj_property name="ElementShortName">ex_mem_en</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_w_reg_en" type="logic">
+         <obj_property name="ElementShortName">ex_w_reg_en</obj_property>
+         <obj_property name="ObjectShortName">ex_w_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/ex_wb_sel" type="logic">
+         <obj_property name="ElementShortName">ex_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">ex_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/temp_srca" type="array">
+         <obj_property name="ElementShortName">temp_srca[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_srca[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/temp_srcb" type="array">
+         <obj_property name="ElementShortName">temp_srcb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_srcb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/alu_src_a" type="array">
+         <obj_property name="ElementShortName">alu_src_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_src_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/alu_src_b" type="array">
+         <obj_property name="ElementShortName">alu_src_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_src_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/ex/alu_res_temp" type="array">
+         <obj_property name="ElementShortName">alu_res_temp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_res_temp[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group267" type="group">
+      <obj_property name="label">EX_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/clear" type="logic">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_alu_res_i" type="array">
+         <obj_property name="ElementShortName">ex_alu_res_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_alu_res_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rt_data_i" type="array">
+         <obj_property name="ElementShortName">ex_rt_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rt_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rd_i" type="array">
+         <obj_property name="ElementShortName">ex_rd_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rd_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_mem_en_i" type="logic">
+         <obj_property name="ElementShortName">ex_mem_en_i</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_reg_en_i" type="logic">
+         <obj_property name="ElementShortName">ex_reg_en_i</obj_property>
+         <obj_property name="ObjectShortName">ex_reg_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_reg_sel_i" type="logic">
+         <obj_property name="ElementShortName">ex_reg_sel_i</obj_property>
+         <obj_property name="ObjectShortName">ex_reg_sel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_mem_r_i" type="logic">
+         <obj_property name="ElementShortName">ex_mem_r_i</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_r_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rs_addr_i" type="array">
+         <obj_property name="ElementShortName">ex_rs_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rs_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rt_addr_i" type="array">
+         <obj_property name="ElementShortName">ex_rt_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rt_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_alu_res_o" type="array">
+         <obj_property name="ElementShortName">ex_alu_res_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_alu_res_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rt_data_o" type="array">
+         <obj_property name="ElementShortName">ex_rt_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rt_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rd_o" type="array">
+         <obj_property name="ElementShortName">ex_rd_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rd_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_mem_en_o" type="logic">
+         <obj_property name="ElementShortName">ex_mem_en_o</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_en_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_reg_en_o" type="logic">
+         <obj_property name="ElementShortName">ex_reg_en_o</obj_property>
+         <obj_property name="ObjectShortName">ex_reg_en_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_reg_sel_o" type="logic">
+         <obj_property name="ElementShortName">ex_reg_sel_o</obj_property>
+         <obj_property name="ObjectShortName">ex_reg_sel_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_mem_r_o" type="logic">
+         <obj_property name="ElementShortName">ex_mem_r_o</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_r_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rs_addr_o" type="array">
+         <obj_property name="ElementShortName">ex_rs_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rs_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/EX_MEM_REGS/ex_rt_addr_o" type="array">
+         <obj_property name="ElementShortName">ex_rt_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_rt_addr_o[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group281" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/mem_alu_res" type="array">
+         <obj_property name="ElementShortName">mem_alu_res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_alu_res[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/mem_rd_addr" type="array">
+         <obj_property name="ElementShortName">mem_rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rd_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/mem_wb_reg_en" type="logic">
+         <obj_property name="ElementShortName">mem_wb_reg_en</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/mem_wb_wb_sel" type="logic">
+         <obj_property name="ElementShortName">mem_wb_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/wb_mem_data" type="array">
+         <obj_property name="ElementShortName">wb_mem_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_mem_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/wb_alu_res" type="array">
+         <obj_property name="ElementShortName">wb_alu_res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_alu_res[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/wb_wb_rd_addr" type="array">
+         <obj_property name="ElementShortName">wb_wb_rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_wb_rd_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/wb_reg_en" type="logic">
+         <obj_property name="ElementShortName">wb_reg_en</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/wb_wb_sel" type="logic">
+         <obj_property name="ElementShortName">wb_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">wb_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/mem/data_ram_data" type="array">
+         <obj_property name="ElementShortName">data_ram_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_ram_data[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group296" type="group">
+      <obj_property name="label">MEM_WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/clear" type="logic">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_mem_data_i" type="array">
+         <obj_property name="ElementShortName">mem_mem_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_mem_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_alu_res_i" type="array">
+         <obj_property name="ElementShortName">mem_alu_res_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_alu_res_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_rd_addr_i" type="array">
+         <obj_property name="ElementShortName">mem_rd_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rd_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_wb_reg_en_i" type="logic">
+         <obj_property name="ElementShortName">mem_wb_reg_en_i</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_reg_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_wb_wb_sel_i" type="logic">
+         <obj_property name="ElementShortName">mem_wb_wb_sel_i</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_wb_sel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_mem_data_o" type="array">
+         <obj_property name="ElementShortName">mem_mem_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_mem_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_alu_res_o" type="array">
+         <obj_property name="ElementShortName">mem_alu_res_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_alu_res_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_rd_addr_o" type="array">
+         <obj_property name="ElementShortName">mem_rd_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rd_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_wb_reg_en_o" type="logic">
+         <obj_property name="ElementShortName">mem_wb_reg_en_o</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_reg_en_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/MEM_WB_REGS/mem_wb_wb_sel_o" type="logic">
+         <obj_property name="ElementShortName">mem_wb_wb_sel_o</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_wb_sel_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group305" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/mem_alu_res" type="array">
+         <obj_property name="ElementShortName">mem_alu_res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_alu_res[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/mem_mem_data" type="array">
+         <obj_property name="ElementShortName">mem_mem_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_mem_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/mem_wb_sel" type="logic">
+         <obj_property name="ElementShortName">mem_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/mem_rd" type="array">
+         <obj_property name="ElementShortName">mem_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/mem_wb_en" type="logic">
+         <obj_property name="ElementShortName">mem_wb_en</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/wb_reg_en" type="logic">
+         <obj_property name="ElementShortName">wb_reg_en</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/wb_reg_addr" type="array">
+         <obj_property name="ElementShortName">wb_reg_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/wb/wb_reg_data" type="array">
+         <obj_property name="ElementShortName">wb_reg_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_data[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group325" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_rt_rd_sel" type="logic">
+         <obj_property name="ElementShortName">dp_rt_rd_sel</obj_property>
+         <obj_property name="ObjectShortName">dp_rt_rd_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_wb_reg_en" type="logic">
+         <obj_property name="ElementShortName">dp_wb_reg_en</obj_property>
+         <obj_property name="ObjectShortName">dp_wb_reg_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_branch_sel" type="array">
+         <obj_property name="ElementShortName">dp_branch_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dp_branch_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_branch_j" type="array">
+         <obj_property name="ElementShortName">dp_branch_j[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dp_branch_j[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_rt_imme_sel" type="logic">
+         <obj_property name="ElementShortName">dp_rt_imme_sel</obj_property>
+         <obj_property name="ObjectShortName">dp_rt_imme_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_alu_sel" type="array">
+         <obj_property name="ElementShortName">dp_alu_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dp_alu_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_w_mem_en" type="logic">
+         <obj_property name="ElementShortName">dp_w_mem_en</obj_property>
+         <obj_property name="ObjectShortName">dp_w_mem_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/cpu_core/datapath/dp_wb_sel" type="logic">
+         <obj_property name="ElementShortName">dp_wb_sel</obj_property>
+         <obj_property name="ObjectShortName">dp_wb_sel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group348" type="group">
+      <obj_property name="label">Hazard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group991" type="group">
+      <obj_property name="label">Data_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/wea" type="array">
+         <obj_property name="ElementShortName">wea[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/addra" type="array">
+         <obj_property name="ElementShortName">addra[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Soc_testsim/SOC_mips/data_ram_noaxi/douta" type="array">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
